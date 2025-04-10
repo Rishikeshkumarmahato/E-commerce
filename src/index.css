@@ -1,0 +1,67 @@
+.hitems{
+  box-shadow: 0px 0px 4px gray;
+  background-image: linear-gradient(to left,rgb(169, 33, 78),rgb(204, 196, 137));
+}
+.hitems ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  gap:100px;
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style: normal;
+  font-size: 20px;
+  color:#d12662;
+}
+.hitems ul li{
+  cursor: pointer;
+}
+.products{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.proHead h1{
+  text-align: center;
+  font-family: "Tektur", sans-serif;
+  color:#d126c9;
+  font-size: 40px;
+  text-shadow: 0px 0px 10px red;
+}
+.ourProducts{
+  display: flex;
+}
+.pItems{
+  display: flex;
+  flex-wrap: wrap;
+}
+.upper img{
+  width: 160px;
+  height: 100px;
+  margin-left: 0px;
+  padding: 0px;
+  box-shadow: 0px 0px 5px #d12662;
+  border-radius: 2px;
+}
+.upper button{
+  margin-right: 20px;
+  padding: 18px;
+  font-size: 15px;
+  border-radius: 8px;
+  background-color: rgb(225, 121, 76);
+  color: white;
+  border:2px solid white;
+}
+.upper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(to bottom,rgb(112, 112, 112),rgb(25, 21, 55));
+}
+.lang select{
+  margin-right: 50px;
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 10px;
+}

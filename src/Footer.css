@@ -1,0 +1,60 @@
+.fSection{
+    display: flex;
+    background-color: black;
+    color:white;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+}
+.fItems h1{
+    margin-left: 0px;
+    font-family: "Tektur", sans-serif;
+}
+.fItems ul{
+padding: 0px;
+list-style: none;
+}
+.fItems li{
+    margin-bottom: 10px;
+}
+.subscribe{
+    display: flex;
+}
+.subscribe input{
+    padding: 15px;
+    border-radius: 5px;
+}
+.subscribe button{
+    padding: 18px;
+    border-radius: 5px;
+    background-color: rgb(229, 23, 23);
+    color: white;
+}
+.connect{
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 5px;
+    margin-top: 1px;
+}
+.connect h1{
+    color:white;
+    font-family: "Tektur", sans-serif;
+    margin: 0px;
+    margin-left: 10px;
+}
+.connect p{
+    color: white;
+    margin: 20px;
+}
+.social_media{
+    display: flex;
+    align-items: center;
+}
+.social_media img{
+width:40px;
+height: 30px;
+margin-left: 20px;
+border-radius: 100%;
+}
